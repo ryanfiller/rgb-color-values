@@ -1,7 +1,8 @@
 <script>
 	import hexToRgba from 'hex-to-rgba';
 
-	let color = '#000000';
+	// rebeccapurple
+	let color = '#663399';
 
 	function getColorValues(color, rgbVal) {
 		const rgb = hexToRgba(color).match(/\((.*)\)/)[1].split(',');
