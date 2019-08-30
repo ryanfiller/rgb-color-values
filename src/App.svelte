@@ -40,6 +40,7 @@
 		margin-bottom: 3rem;
 		position: relative;
 		color: transparent;
+		transition: color 0s;
 	}
 
 	h1:after {
@@ -69,6 +70,12 @@
 		left: 0;
 		mix-blend-mode: multiply;
 		transform-origin: center center;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	h1:hover span {
+		opacity: 1;
 	}
 
 	h1:hover span:nth-child(1) {
